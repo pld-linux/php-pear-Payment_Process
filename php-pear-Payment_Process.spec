@@ -24,7 +24,7 @@ Payment_Process is a gateway-independent framework for processing
 credit cards, and eventually e-checks and other forms of payments as
 well.
 
-This class has in PEAR status: %{_status}.
+In PEAR status of this package is: %{_status}.
 
 %description -l pl
 Payment_Process dostarcza niezale¿nego ¶rodowiska do przetwarzania
