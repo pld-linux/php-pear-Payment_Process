@@ -1,11 +1,11 @@
 %include	/usr/lib/rpm/macros.php
-%define         _class          Payment
-%define         _subclass       Process
+%define		_class		Payment
+%define		_subclass	Process
 %define		_status		beta
 %define		_pearname	%{_class}_%{_subclass}
 
-Summary:	%{_pearname} - Unified payment processor
-Summary(pl):	%{_pearname} - Zunifikowany procesor zap³at
+Summary:	%{_pearname} - unified payment processor
+Summary(pl):	%{_pearname} - zunifikowany procesor zap³at
 Name:		php-pear-%{_pearname}
 Version:	0.2
 Release:	1
