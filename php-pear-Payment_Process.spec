@@ -20,15 +20,16 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Payment_Process is a gateway-independent framework for processing credit
-cards, and eventually e-checks and other forms of payments as well.
+Payment_Process is a gateway-independent framework for processing
+credit cards, and eventually e-checks and other forms of payments as
+well.
 
 This class has in PEAR status: %{_status}.
 
 %description -l pl
-Payement_Process dostarcza niezale¿nego ¶rodowiska do przetwarzania
-op³at za pomoc± kart kredytowych, czeków elektronicznych lub innych form
-p³atno¶ci.
+Payment_Process dostarcza niezale¿nego ¶rodowiska do przetwarzania
+op³at za pomoc± kart kredytowych, czeków elektronicznych lub innych
+form p³atno¶ci.
 
 Ta klasa ma w PEAR status: %{_status}.
 
