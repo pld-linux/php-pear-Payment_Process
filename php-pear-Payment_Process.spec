@@ -7,12 +7,12 @@
 Summary:	%{_pearname} - unified payment processor
 Summary(pl):	%{_pearname} - zunifikowany procesor zap³at
 Name:		php-pear-%{_pearname}
-Version:	0.2
+Version:	0.5
 Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	2f326e28683a5aef0d3f0cf37f761038
+# Source0-md5:	c3a58a82dc6d3d6da80958c429085ead
 URL:		http://pear.php.net/package/Payment_Process/
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
 Requires:	php-pear
@@ -38,10 +38,11 @@ Ta klasa ma w PEAR status: %{_status}.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{php_pear_dir}/%{_class}/%{_subclass}
+install -d $RPM_BUILD_ROOT%{php_pear_dir}/%{_class}/%{_subclass}/Type
 
 install %{_pearname}-%{version}/*.php $RPM_BUILD_ROOT%{php_pear_dir}/%{_class}
 install %{_pearname}-%{version}/%{_subclass}/*.php $RPM_BUILD_ROOT%{php_pear_dir}/%{_class}/%{_subclass}
+install %{_pearname}-%{version}/%{_subclass}/Type/*.php $RPM_BUILD_ROOT%{php_pear_dir}/%{_class}/%{_subclass}/Type
 
 %clean
 rm -rf $RPM_BUILD_ROOT
