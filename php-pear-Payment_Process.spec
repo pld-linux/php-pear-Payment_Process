@@ -16,6 +16,9 @@ Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 URL:		http://pear.php.net/package/Payment_Process/
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 Requires:	php-pear
+Requires:	php-common >= 3:4.2.0
+Requires:	php-pear-Validate >= 0.5.0
+Requires:	php-pear-Validate_Finance_CreditCard >= 0.5.0
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
