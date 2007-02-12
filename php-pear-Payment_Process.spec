@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - unified payment processor
-Summary(pl):	%{_pearname} - zunifikowany procesor zap≥at
+Summary(pl.UTF-8):   %{_pearname} - zunifikowany procesor zap≈Çat
 Name:		php-pear-%{_pearname}
 Version:	0.6.2
 Release:	1.1
@@ -34,10 +34,10 @@ well.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Payment_Process dostarcza niezaleønego ∂rodowiska do przetwarzania
-op≥at za pomoc± kart kredytowych, czekÛw elektronicznych lub innych
-form p≥atno∂ci.
+%description -l pl.UTF-8
+Payment_Process dostarcza niezale≈ºnego ≈õrodowiska do przetwarzania
+op≈Çat za pomocƒÖ kart kredytowych, czek√≥w elektronicznych lub innych
+form p≈Çatno≈õci.
 
 Ta klasa ma w PEAR status: %{_status}.
 
