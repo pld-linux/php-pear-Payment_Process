@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - unified payment processor
-Summary(pl.UTF-8):   %{_pearname} - zunifikowany procesor zapłat
+Summary(pl.UTF-8):	%{_pearname} - zunifikowany procesor zapłat
 Name:		php-pear-%{_pearname}
 Version:	0.6.2
 Release:	1.1
