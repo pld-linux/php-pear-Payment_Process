@@ -6,12 +6,12 @@
 Summary:	%{_pearname} - unified payment processor
 Summary(pl.UTF-8):	%{_pearname} - zunifikowany procesor zapłat
 Name:		php-pear-%{_pearname}
-Version:	0.6.2
-Release:	3
+Version:	0.6.6
+Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	4bf2081b3d0b495c5c7360606031f295
+# Source0-md5:	8137979f1f965ed0d94fa07755125836
 URL:		http://pear.php.net/package/Payment_Process/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
