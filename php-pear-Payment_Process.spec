@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.php
 %define		_status		beta
 %define		_pearname	Payment_Process
 Summary:	%{_pearname} - unified payment processor
